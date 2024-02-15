@@ -1,0 +1,82 @@
+*{
+    background-color: #141414;
+    font-family:Roboto;
+    padding: 20px;
+}
+
+/*
+Estilos da página index.html
+*/
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: #338b85;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: #b256b9;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+border-radius: 8px;
+}
+
+p{
+    color: #ae9c8f;
+    text-wrap: wrap ;
+}
+a{
+    color: #338b85 ;
+    font-size: 20px;
+}
+
+a:hover{
+    color:#005954;
+}
+.container{
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.container img {
+    width: 500px;
+}
+.menu li{
+    display: inline-block;
+    padding: 15px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listas{
+    text-align: center;
+}
+.listas img{
+width: 600px;
+}
+
+/*
+Estilos da página contato.html
+*/
+
+.form-container{
+    background-color: #ae9c8f;
+    color: #338b85;
+    position: relative;
+    width: 400px;
+}
+.formulario{
+    font-style: bold;
+    font-family: Roboto;
+}
