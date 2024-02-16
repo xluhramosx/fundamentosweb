@@ -79,4 +79,18 @@ Estilos da página contato.html
 .formulario{
     font-style: bold;
     font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between 3px ;
+}
+.botao{
+    background-color: #338b85;
+    display: flex;
+    align-items: flex-end;
+    width: 85px;
+    height: 15px;
+    border-radius: 8px;
+}
+.botao:hover{
+   background-color: #005954;
 }

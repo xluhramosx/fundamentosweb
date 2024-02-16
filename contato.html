@@ -21,22 +21,18 @@
     <div class="form-container">
         <form action="" class="formulario">
             <label for="nome">Nome:</label><br>
-            <input type="text" id="nome">
-            <br>
-            <br>
-            <br>
-            <br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email">
-            <br>
-            <br>
-            <br>
-            <br>
-            <label for="nome">Assunto:</label><br>
-            <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
-            <br>
+            <input type="text" id="nome" onkeyup="validaNome()">
+            <div id="txtNome"></div>
 
-            <button>Enviar</button>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" onkeyup="validaEmail()">
+            <div id="txtEmail"></div>
+
+            <label for="nome">Assunto:</label><br>
+            <textarea name="assunto" id="assunto" cols="30" rows="5" onkeyup="validaAssunto()"></textarea>
+            <div id="txtAssunto"></div>
+
+            <button onclick="enviar()" class="botao">Enviar</button>
         </form>
     </div>
 
@@ -47,6 +43,9 @@
         <li><a href="https://www.linkedin.com/in/lucianaramos23/">LinkedIn</a></li>
         <li><a href="https://www.instagram.com/xluh.ramosx/">Instagram</a></li>
     </ul>
+
+    <script src="./assets/js/script.js"></script>
+
 </body>
 
 </html>
